@@ -1,0 +1,391 @@
+ul li a:hover{
+background-color: #353535;
+color: orange;
+}
+
+/* ..... responsive mode.... */
+/*@media screen and (min-width:640px){
+  nav{
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+  .btn{
+    display: none;
+  }
+
+  ul{
+    display: flex;
+    
+  }
+
+  nav ul a{
+    background: transparent;
+  }
+
+}*/
+
+
+input.MuiInputBase-input.MuiOutlinedInput-input {
+  padding: 6px;
+}
+/*span.MuiTab-wrapper {
+  align-items: baseline;
+  text-align: left;
+}*/
+
+.MuiBox-root.MuiBox-root{
+  padding: 0px !important;
+}
+/*.Dropdown-control {
+  border: none;
+  color: navy;
+}
+*/
+.Dropdown-menu {
+  max-height: 100vh !important;
+}
+/*a {
+  padding-left: 20px;
+}
+*/
+
+
+/* extra */
+
+/*************CSS WRITTEN BY RAHUL**************/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;1,400;1,600&display=swap');
+.main {
+    padding-bottom: 70px;
+}
+body{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  line-height: 1.5;
+  font-size: 16px;
+  font-weight: 400;
+  font-family:'Source Sans Pro', sans-serif !important;
+  color: #303030;
+}
+.MuiTypography-body1,.MuiTypography-body{
+  font-family:'Source Sans Pro', sans-serif !important;
+}
+h1{
+  font-size: 40px;
+  line-height: 48px;  
+}
+h2{
+  font-size: 36px;
+  line-height:42px;
+}
+h3{
+  font-size: 30px;
+  line-height: normal;
+}
+h4{
+  font-size: 22px;
+  line-height: normal;
+}
+p{
+  font-size: 16px !important;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+a{
+  text-decoration: none;
+}
+input{
+  border: 1px solid #303030;
+  width: 100%;
+  border-radius: 4px;
+  padding: 6px 15px;
+}
+button,.btn{
+  border: none;
+  background: red;
+  border-radius: 4px;
+  color: #fff;
+  padding: 6px 15px;
+}
+.middle-level-section {
+    padding: 15px;
+}
+
+.middle-level-section h1,
+.middle-level-section p {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.middle-level-section h1{
+  margin-bottom: 20px
+}
+.our-services-block{
+  padding-bottom: 50px
+}
+
+/******Header Css*******/
+.header-section{
+  background: #f2f2f2;
+}
+.navigation-bar{
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  max-width: 1260px;
+  margin: 0 auto;
+}
+.navigation-menu {
+    margin-left: auto;
+    padding-right: 30px;
+}
+.navigation-menu ul{
+  display: flex;
+  flex-flow: row wrap;
+  margin:0;
+  list-style: none;
+  padding: 0;
+}
+.dropdown-block{
+  position: relative;
+}
+.navigation-menu ul.dropdown-menu{
+  position: absolute;
+  top: 22px;
+  padding:10px;
+  background: #fff;
+  z-index: 1;
+  min-width: 160px;
+  box-shadow: 0 0px 5px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+ul.dropdown-menu li{
+  display: block;
+  color: #000;
+  margin-bottom: 10px;
+}
+ul.dropdown-menu li a.dropdown-link,
+ul.dropdown-menu li a.dropdown-link:hover {
+    display: block;
+    background: transparent;
+    font-size: 16px;
+    text-align:left;
+}
+ul.dropdown-menu li a.dropdown-link{
+  color: #000;
+}
+ul.dropdown-menu li a.dropdown-link:hover{
+  color: orange;
+}
+/****Footer css*******/
+.footer-section{
+  background: #303030;
+  padding: 60px;
+  margin-top: 0;
+}
+.footer-section a{
+  color: #fff;
+}
+/******banner********/
+.banner-section h1{
+  color: #fff;
+  margin: 0
+}
+.banner-section p{
+  color: #fff;
+  margin: 0;
+}
+.home-section.MuiGrid-spacing-xs-3 {
+    width: 100%;
+    margin: 0;
+    padding: 50px 0 !important;
+    position: relative;
+    top: -6px;
+}
+.home-section .MuiGrid-spacing-xs-3,
+.home-section .MuiGrid-spacing-xs-4{
+  width: 100%;
+  margin: 0
+}
+.makeStyles-ConstructionPackages-7 b {
+    font-size: 36px;
+    color: #000;
+    padding-bottom: 10px;
+    display: block;
+}
+.testimonial-block {
+    max-width: 1250px;
+    margin: 0 auto;
+}
+.testimonial-block .MuiGrid-grid-xs-12{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center; 
+}
+/*********Industries*******/
+.technology-demand li{
+  padding: 0 0px;
+  margin-bottom: 10px;
+  display: inline-block;
+  width: 20%;
+  position: relative;
+  vertical-align: text-top;
+}
+.technology-demand{
+  list-style: disc;
+  padding: 0 10px;
+}
+.technology-demand li:before {
+    content: "";
+    display: inline-block;
+    border-radius: 50px;
+    width: 4px;
+    height: 4px;
+    padding: 1px;
+    background: #000;
+    margin-right: 5px;
+    position: absolute;
+    top: 9px;
+    left: -10px;
+}
+ul.technology-demand.custom li {
+    width: 33%;
+}
+/***Contact us********/
+.middle-level-section.ContactUs {
+    max-width: 970px;
+    margin: 0 auto;
+}
+.middle-level-section.ContactUs .form-group{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.middle-level-section.ContactUs .form-group p{
+  margin: 0 0 0px 0;
+  flex: 1 0 15%;
+  max-width: 15%;
+}
+body .MuiInputBase-input{
+  margin:0;
+  height: 30px;
+  padding:10px 15px !important;
+  color: #000;
+}
+.btn-submit {
+    margin: 0 auto;
+    text-align: center;
+}
+.btn-submit button {
+    display: inline;
+    padding: 10px 15px;
+}
+
+/*********Media queries*********/
+
+@media screen and (max-width: 767px){
+  body .footer-section{
+    padding: 60px 15px;
+  }
+  .footer-section .makeStyles-MoreDetails-28{
+    max-width: 96%;
+    text-align:center;
+    margin: 0 auto;
+  }
+  .footer-section .MuiGrid-grid-xs-6{
+    max-width: 100%;
+    flex: 1 0 100%; 
+    text-align: center;
+  }
+  .footer-section .makeStyles-MoreDetailsCompany-27{
+    font-size: 24px !important;
+    text-align: center;
+  }
+  .middle-level-section{
+    padding: 60px 15px !important;
+  }
+  .middle-level-section .MuiGrid-grid-xs-6{
+    flex: 1 0 100%;
+    max-width: 100%;
+  }
+  .middle-level-section h1{
+    font-size: 28px;
+    text-align: center;
+    line-height: normal;
+  }
+  body .middle-level-section.ContactUs .form-group p{
+    max-width: 100%;
+    flex: 1 0 100%;
+  }
+  body .middle-level-section.ContactUs .form-group .MuiFormControl-root{
+    width: 100% !important;
+  }
+  body .btn-submit button{
+    max-width: 200px;
+  }
+  .navigation-bar-menu {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  .navigation-bar-menu ul {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+  }
+  .bar1, .bar2, .bar3 {
+    width: 30px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;
+  }
+  body .makeStyles-CompanyDetails-4{
+    width: 65%;
+  }
+  .home-section .MuiGrid-grid-xs-6{
+    flex: 1 0 100%;
+    max-width: 100%;
+    margin-bottom: 30px
+  }
+ .WhyChoose-section .MuiPaper-rounded{
+   flex-direction:column;
+   justify-content: center;
+ }
+ .WhyChoose-section .MuiTypography-root{
+  text-align: center !important; 
+ }
+ .makeStyles-SafeMoneyTitle-24{
+  padding-top: 20px;
+  padding-bottom: 15px;
+ }
+ .makeStyles-SafeMoneySubTitle-25{
+  padding-bottom: 30px;
+ }
+ .home-section .MuiGrid-grid-xs-4{
+  flex:1 0 100%;
+  max-width: 100%;
+ }
+ .home-section .MuiGrid-grid-xs-4 [class*="makeStyles-"]{
+  border-radius: 5px;
+  font-size: 21px !important
+ }
+ .testimonial-block{
+  padding: 0 15px;
+ }
+
+}
