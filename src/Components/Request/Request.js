@@ -13,7 +13,7 @@ import Button from '@material-ui/core/Button';
 import { ValidatorForm, TextValidator } from 'react-material-ui-form-validator';
 
 
-import axios from "axios"
+// import axios from "axios"
 
 
 const styles = theme => ({
@@ -32,7 +32,7 @@ const styles = theme => ({
         color: "darkorange",
         paddingBottom: "20px",
         fontSize: "16px",
-        textAlign:"center"
+        textAlign: "center"
     },
     SubmitButton: {
         marginTop: "40px"
@@ -108,16 +108,16 @@ class Request extends Component {
             setTimeout(() => this.setState({ submitted: false }), 5000);
         });
 
-        axios.post('/api/forma', data)
-            .then(res => {
-                this.setState({
-                    sent: true,
-                })
-                // }, this.resetForm())
-            }).catch(() => {
-                console.log('message not sent')
-            })
-        console.log({ data })
+        // axios.post('/api/forma', data)
+        //     .then(res => {
+        //         this.setState({
+        //             sent: true,
+        //         })
+        //         // }, this.resetForm())
+        //     }).catch(() => {
+        //         console.log('message not sent')
+        //     })
+        // console.log({ data })
     }
 
 
@@ -178,7 +178,7 @@ class Request extends Component {
                                 }}
                                 className={classes.TextField}
                                 variant="outlined"
-                                style={{width: "85%" }}
+                                style={{ width: "85%" }}
                                 value={this.state.name}
                                 onChange={this.handelName}
                                 required
@@ -257,19 +257,19 @@ class Request extends Component {
                             <Button variant="contained"
                                 color="primary"
                                 // className={classes.SubmitButton}
-                                style={{width:"300px"}}
+                                style={{ width: "300px" }}
                                 type="submit"
                                 disabled={submitted}
                                 onClick={this.formSubmit}
                             >
-                               <b> {
+                                <b> {
                                     (submitted && 'Your form is submitted!')
                                     || (!submitted && 'Submit')
                                 }
                                 </b>
                             </Button>
                         </div>
-                        <Typography style={{color:"darkgray",textAlign:"center",fontSize:"12px", paddingTop:"10px"}}>Your Privacy Matters!</Typography>
+                        <Typography style={{ color: "darkgray", textAlign: "center", fontSize: "12px", paddingTop: "10px" }}>Your Privacy Matters!</Typography>
                     </div>
                 </ValidatorForm>
             </div>
